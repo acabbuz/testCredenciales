@@ -9,7 +9,7 @@ class CredencialTest {
 	
 	@BeforeAll
 	public static void setup() {
-		sut=new Credencial("Daniel", "Gutierrez", "Password1");
+		sut=new Credencial("adrian", "cabeza", "Password1");
 	} 
 	
 	
@@ -31,12 +31,12 @@ class CredencialTest {
 	//Forma 1
 	@Test
 	void comprobarPasswordTest() {
-		assert(new Credencial("Daniel", "Gutierrez", "password1").comprobarPassword("password1"));
+		assert(new Credencial("adrian", "cabeza", "password1").comprobarPassword("password1"));
 	}
 	
 	@Test
 	void comprobarPasswordNoIgualTest() {
-		assertFalse(new Credencial("Daniel", "Gutierrez", "password1").comprobarPassword("password"));
+		assertFalse(new Credencial("adrian", "cabeza", "password1").comprobarPassword("password"));
 	}
 	
 	

@@ -10,9 +10,9 @@ public class Principal {
 		
 		String[] usuarios = new String[10];
 		
-		Usuario usuario1 = new Usuario("Daniel", "Gutiérrez", "dgm1021999@gmail.com", "Password1");
-		Usuario usuario2 = new Usuario("Manolito", "Pérez", "manolitoP@gmail.com", "Password434");
-		Usuario usuario3 = new Usuario("Pepe", "Castaño", "Pepep@gmail.com", "Password343r");
+		Usuario usuario1 = new Usuario("Adrian", "Cabeza", "acb@gmail.com", "Password1");
+		Usuario usuario2 = new Usuario("Manolito", "Buzon", "manolitoP@gmail.com", "Password434");
+		Usuario usuario3 = new Usuario("Juan", "Castaño", "Pepep@gmail.com", "Password343r");
 		
 		usuarios[0]=usuario1.toString();
 		usuarios[1]=usuario1.toString();

@@ -15,15 +15,15 @@ class CredencialTestEED extends TestCase{
 
 	@BeforeAll
 	public static void setup() {
-		credencial1 = new Credencial("Daniel", "Gutierrez", "Password1");
-		credencial2 = new Credencial("Jose", "Guti", "Password");
-		credencial3 = new Credencial("Jose", "Guti", "Passwor");
+		credencial1 = new Credencial("adrian", "cabeza", "Password1");
+		credencial2 = new Credencial("pepe", "cabeza", "Password");
+		credencial3 = new Credencial("antonio", "cabeza", "Passwor");
 	}
 
 	@Test
 	public void testGenerarUsername() {
-		assertTrue("dangut100".equals(credencial1.getUsername()));
-		assertEquals("dangut100", credencial1.getUsername());
+		assertTrue("adrcab100".equals(credencial1.getUsername()));
+		assertEquals("adrcab100", credencial1.getUsername());
 		assertNotEquals("", credencial1.getUsername());
 	} 
 	
